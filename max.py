@@ -1,11 +1,7 @@
-def largest(arr,n):
-  max = arr[0]
-  for i in range(1,n):
-    if arr[i]>max:
-      max =arr[i]
-  return max
- arr = int(input("Enter the number:"))
- n = len (arr)
- ans = largest(arr.n)
- print("largest number",ans)
- 
+a = []
+n = int(input("Enter number of elements:"))
+for i in range(1,n+1):
+  b = int(input("Enter a element:"))
+  a.append(b)
+a.sort()
+print("Largest element is",a[n-1])
