@@ -1,8 +1,7 @@
-def sum(n,k):
-  ans = 0
-  for i in range(1,n+1):
-    ans +=(i%k)
-  return ans
-n=int(input())
-k=int(input())
-print(sum(n,k))
+x,y = [int(x) for x in input().split()]
+for i in range(1,x+1):
+    print(i,end='')
+    sum =0
+    for j in range(1,y+1):
+      sum = sum + j
+print("\n",sum)
